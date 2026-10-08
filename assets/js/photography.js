@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function() {
   const gallery       = document.getElementById("photography-gallery");
   const photoModal    = document.getElementById("photo-modal");
   const modalImg      = document.getElementById("modal-img");
-  const modalDate     = document.getElementById("modal-date");
   const modalLocation = document.getElementById("modal-location");
   const closeModal    = document.querySelector(".close-modal");
 
@@ -47,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
         if (brick._wasMoved === false) {
           const photoData = photos[this.dataset.index];
           modalImg.src          = photoData.url;
-          modalDate.textContent = photoData.date;
           modalLocation.textContent = photoData.location;
           photoModal.style.display = "block";
         }
