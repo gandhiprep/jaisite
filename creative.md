@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creative
+title: Long Form
 nav_order: 2
 ---
 
