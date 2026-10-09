@@ -5,8 +5,6 @@ tagline:             ''
 description:         'Jai Gandhi'
 url:                 https://jaigandhi.life
 baseurl:             ''  # Production baseurl (empty for root domain)
-paginate:            5
-paginate_path:       '/socialclub/page:num'
 permalink:           pretty
 
 # About/contact
@@ -16,8 +14,6 @@ author:
   email:             jaimgandhi@gmail.com
 
 # Gems
-plugins:
-  - jekyll-paginate
 
 # Custom vars
 version:             1.0.0
