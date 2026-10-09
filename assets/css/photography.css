@@ -103,3 +103,39 @@
     width: 100%;
   }
 }
+
+/* --- Tapestry chronological feed ----------------------------------- */
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+}
+
+.feed-item {
+  padding-bottom: 3.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+.feed-item:last-child {
+  border-bottom: none;
+}
+
+.feed-item__title {
+  margin-bottom: 0.15rem;
+}
+
+.feed-item__date {
+  display: block;
+  margin-bottom: 1.4rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.feed-item img,
+.feed-item video {
+  max-width: 100%;
+  height: auto;
+  margin: 1.4rem 0 0.6rem;
+}
