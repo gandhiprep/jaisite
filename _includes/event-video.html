@@ -1,0 +1,5 @@
+{% comment %} Renders an event clip only if the file exists. {% endcomment %}
+{% assign vf = site.static_files | where: "path", include.src %}
+{% if vf.size > 0 %}
+  > <video controls playsinline preload="metadata" poster="{{ site.url }}{{ include.poster }}" width="{{ include.width | default: '60%' }}" aria-label="{{ include.alt }}"><source src="{{ site.url }}{{ include.src }}" type="video/mp4"></video>
+{% endif %}
