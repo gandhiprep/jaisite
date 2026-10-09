@@ -1,0 +1,6 @@
+{% comment %} Renders an event image only if the file exists, so a
+not-yet-sent photo leaves no broken image behind. {% endcomment %}
+{% assign pf = site.static_files | where: "path", include.src %}
+{% if pf.size > 0 %}
+  > <img src="{{ site.url }}{{ include.src }}" width="{{ include.width | default: '60%' }}" alt="{{ include.alt }}">
+{% endif %}
