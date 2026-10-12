@@ -7,9 +7,9 @@ order: 5
 
 some fun pregames with really good yaps. I miss throwing good pregames.
 
-  > <img src="{{ site.url }}/assets/images/blogposts/2026-02-22-event-3-friends.jpg" width="60%" alt="Friends hanging out together before a night out">
+{% include event-image.html src="/assets/images/blogposts/july-03-event-2.jpg" alt="Two friends deep in conversation at a pregame" width="60%" %}
 
-  > <img src="{{ site.url }}/assets/images/blogposts/july-03-event-2.jpg" width="60%" alt="Two friends deep in conversation at a pregame">
+{% include event-image.html src="/assets/images/blogposts/2025-11-01-event-1.jpg" alt="A packed bar where friends pitched their friends with ppt's" width="60%" %}
 
 "Game" because I wanted the pregame vibe without feeling the need to leave. "We've Lost Dancing" to make sure to go to a dancey club afterwards and get moving.
 
