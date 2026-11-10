@@ -7,5 +7,5 @@ Jai's personal site: Jekyll (Lanyon theme) on GitHub Pages, legacy build from `m
 - `/socialclub/` (titled "Tapestry") is a chronological events feed, newest first, no pagination. It is not the Tapestry app; don't host the app's privacy policy here unless Jai says so.
 - One `_posts/YYYY-MM-DD-slug.md` per event: top text, photo/video, bottom text, in Jai's own words. Use `{% include event-image.html %}` / `{% include event-video.html %}` (they render nothing if the file is missing), never a hardcoded `<img>` for media that may not exist.
 - Shot on iPhone (`_data/photos.yml`) shows location only, no dates. Strip EXIF and fix orientation before adding photos.
-- Copy changes come from Jai (text, or the Notion page "jaigandhi.life — site copy"); don't rewrite his wording beyond what he asked.
+- Copy changes come from Jai (text, or the Notion page "jaigandhi.life — site copy"); don't rewrite Jai's wording beyond what he asked.
 - After a push, check `gh api repos/gandhiprep/jaisite/pages/builds/latest` reaches `built`, then fetch the live page.
