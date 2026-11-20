@@ -1,3 +1,24 @@
+# jaigandhi.life
+
+Jai's personal site: Jekyll (Lanyon theme) built by GitHub Pages from `master`.
+Pushing `master` publishes the live site.
+
+## Keys and secrets
+
+There are none. The site is static HTML: no API keys, no tokens, no
+environment variables, no server code. Embeds (YouTube, SoundCloud) are public
+iframes that need no key. If a key is ever needed, do not put it in this repo
+(it is public); use a server-side host like the Dancefloor Demons Vercel project
+instead.
+
+Security headers can't be set on GitHub Pages (it only sends HTTPS + its own
+defaults). HTTPS is enforced in repo Settings → Pages.
+
+Repo-only files (this README, `AGENTS.md`, `Gemfile`) are kept off the live
+site by the `exclude:` list in `_config.yml`.
+
+---
+
 # Lanyon
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
